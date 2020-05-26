@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Manzoor Bin Mahmood</h1>
+<hr>
+
+<h2>Projects</h2>
+<!--<p>Resize the browser window to see the responsive effect.</p>  -->
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images_projects/1.png" alt="Mountainsd" style="width:100%">
+      <h3>Neural Network from Scratch</h3>
+      <p>This project deals with basic implementation of neurak networks. In the code training is done on MNIST dataset. Implementation has been done with minimum use of libraries to get a better understanding of the concept and working on neural nets. Functions for initialization, activation, forward propagation, backward propagation, cost have been written separately. 
+	  <br>
+	  <br>
+	  
+	  <b>Skills used: </b>Python, Numpy, Pandas, Matplotlib
+	  
+	  </p>
+	  <a href="https://github.com/manzoormahmood/mnist_neural-network-from-scaratch">Explore Project</a>
+    </div>
+  </div>
+  
+  
+  
+  <div class="column">
+    <div class="content">
+      <img src="images_projects/zomato.jpg" alt="Mountainsd" style="width:100%">
+      <h3>Data Analysis on Zomato Dataset</h3>
+      <p>A data visualization of zomato restaurants in Bangalore. Various techniques like the word cloud and stacked graph have been used for visualization.
+	  <br>
+	  <br>
+	  
+	  <b>Skills used: </b>Python, Data Analysis, Word Cloud, Data Visualization
+	  </p>
+	  <a href="https://www.kaggle.com/manzoormahmood/analysis-of-zomato-restaurants-in-bangalore">Explore Project</a>
+    </div>
+  </div>
+  
+  
+  
+    <div class="column">
+    <div class="content">
+      <img src="images_projects/house price.png" alt="Mountainsd" style="width:100%">
+      <h3>House Price Prediction model deployed on Cloud</h3>
+      <p>Go ahead and check the house price using an online deployed regression model.Model is deployed using a flask on the Heroku cloud platform. Dataset was obtained from kaggle.
+	  <br>
+	  <br>
+	  
+	  <b>Skills used: </b>Python, Flask, Heroku, Pickle lib
+	  </p>
+	  <a href="https://flask-deploy-github.herokuapp.com/">Explore Project</a>
+    </div>
+  </div>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
+  
+  <div class="column">
+    <div class="content">
+      <img src="images_projects/netflix.jpg" alt="Mountainsd" style="width:100%">
+      <h3>Exploratory data analysis on Netflix data</h3>
+      <p>Data analysis on netflix data. Choropleth map was used to represent data on world map.
+	  <br>
+	  <br>
+	  
+	  <b>Skills used: </b>Python, choropleth map, Data representation
+	  </p>
+	  <a href="https://www.kaggle.com/manzoormahmood/playing-with-netflix-data">Explore Project</a>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="content">
+      <img src="images_projects/covid.jpg" alt="Mountainsd" style="width:100%">
+      <h3>COVID-19 analysis</h3>
+      <p>Tableau software is used to display covid-19 data on world map. Map is interactive. The whole project is deployed as a story mode on tableau public.
+	  <br>
+	  <br>
+	  
+	  <b>Skills used: </b>Python, Tableau
+	  </p>
+	  <a href="https://public.tableau.com/profile/manzoor.bin.mahmood#!/vizhome/shared/BWCJH37NG">Explore Project</a>
+    </div>
+  </div>
+  
+  
+  
+  
+<!-- END GRID -->
+</div>
+
+
+<!---
+<div class="content">
+  <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+</div>
+-->
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
